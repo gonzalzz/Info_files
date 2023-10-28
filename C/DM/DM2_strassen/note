@@ -1,0 +1,23 @@
+Compilation :
+il manque resize
+
+Le travail apparaît sérieux mais l'affichage des matrices n'est pas
+très élégant
+
+ 0, 1, 2, 3, |
+| 4, 5, 6, 7, |
+| 8, 9, 10, 11, |
+| 12, 13, 14, 15, |
+
+Les coefficients ne sont pas bien alignés en colonnes et il y a une
+virgule en trop.
+
+
+Pour Strassen : la fonction devrait être récursive. Vous vous
+contentez de manipuler des coefficients alors qu'on devrait réaliser
+des sommes et produits de matrices blocs : ça ne peut pas marcher.
+
+
+Le reste OK (mais pas de resize).
+
+Note B
